@@ -75,6 +75,16 @@ section div:first-child button {
 section div:nth-child(2) {
   background-color: hsl(184, 100%, 22%);
 }
+section div:nth-child(2) button {
+   color: hsl(184, 100%, 22%);
+    padding: 10px 15px;
+    border-radius: 22px;
+}
 section div:nth-child(3) {
   background-color: hsl(179, 100%, 13%);
+}
+section div:nth-child(3) button {
+   color:  hsl(179, 100%, 13%);
+    padding: 10px 15px;
+    border-radius: 22px;
 }
