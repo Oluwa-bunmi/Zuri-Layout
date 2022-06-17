@@ -8,11 +8,11 @@
 } */
 main{
     display: grid;
-    grid-template-areas: 'first first second third third forth forth';
+    grid-template-areas: 'first first second' 'third third forth ';
 }
-/* main > div {
-
-} */
+main > div {
+padding: 80px;
+}
 main div:first-child{
     background-color: orangered;
     grid-area: first;
