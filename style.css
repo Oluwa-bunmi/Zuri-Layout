@@ -1,35 +1,54 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-/* body{
-    display: grid;
-    place-items: center;
-} */
-main{
-    display: grid;
-    grid-template-areas: 'first first second' 'third third forth ';
+
+main {
+  display: grid;
+  grid-template-areas: "first first first second second " "third third fourth fourth fourth " "third third fifth fifth fifth ";
+  grid-gap: 14px;
+  margin: auto;
+  width: 70%;
+  margin-top: 1rem;
+  background-color: rgb(19, 19, 27);
+  padding: 20px 40px;
 }
 main > div {
-padding: 80px;
+  padding: 90px;
 }
-main div:first-child{
-    background-color: orangered;
-    grid-area: first;
+main div:first-child {
+  background-color: orangered;
+  grid-area: first;
 }
-main div:nth-child(2){
-    background-color: yellow;
-    grid-area: second;
+main div:nth-child(2) {
+  background-color: yellow;
+  grid-area: second;
 }
-main div:nth-child(3){
-    background-color: green;
-    grid-area: third;
+main div:nth-child(3) {
+  background-color: green;
+  grid-area: third;
 }
-main div:nth-child(4){
-    background-color: blue;
-    grid-area: fourth;
+main div:nth-child(4) {
+  background-color: blue;
+  grid-area: fourth;
 }
-main div:nth-child(5){
-    background-color: blue;
-    grid-area: fifth;
+main div:nth-child(5) {
+  background-color: blue;
+  grid-area: fifth;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+}
+section > div {
+    padding: 25px;
+}
+section div:first-child {
+  background-color: hsl(31, 77%, 52%);
+}
+section div:nth-child(2) {
+  background-color: hsl(184, 100%, 22%);
+}
+section div:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
 }
