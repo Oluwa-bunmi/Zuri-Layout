@@ -49,20 +49,22 @@ background-color: #fff;
 padding: 3rem 6rem;
   margin: auto 3rem;
   margin-top: 160px;
+  font-family: 'Lexend Deca', sans-serif;
  
 }
 
 section > div {
     padding: 25px;
 }
-section > div h3{
+section > div h2{
     margin: 20px 0;
     color: #fff;
+    line-height: 40px;
 }
 section p{
     color: #fff;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 30px;
 }
 button {
     margin-top: 60px;
