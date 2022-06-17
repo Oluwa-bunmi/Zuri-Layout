@@ -38,11 +38,20 @@ main div:nth-child(5) {
   background-color: blue;
   grid-area: fifth;
 }
+body{
+    background-color: black;
+}
+
 section {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
+background-color: #fff;
+padding: 3rem 6rem;
+  margin: auto 3rem;
+  margin-top: 160px;
  
 }
+
 section > div {
     padding: 25px;
 }
@@ -58,7 +67,7 @@ section p{
 button {
     margin-top: 60px;
     margin-bottom: 10px;
-    /* outline: none; */
+   /* font-size: 15px; */
     border: none;
     /* color: white;
     padding: 10px 15px;
@@ -66,14 +75,17 @@ button {
 }
 section div:first-child {
   background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
 }
 section div:first-child button {
+    
    color: hsl(31, 77%, 52%);
     padding: 10px 15px;
     border-radius: 22px;
 }
 section div:nth-child(2) {
   background-color: hsl(184, 100%, 22%);
+  
 }
 section div:nth-child(2) button {
    color: hsl(184, 100%, 22%);
@@ -82,6 +94,7 @@ section div:nth-child(2) button {
 }
 section div:nth-child(3) {
   background-color: hsl(179, 100%, 13%);
+   border-radius: 0 10px 10px 0;
 }
 section div:nth-child(3) button {
    color:  hsl(179, 100%, 13%);
