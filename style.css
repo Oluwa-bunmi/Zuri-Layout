@@ -47,7 +47,7 @@ section > div {
     padding: 25px;
 }
 section > div h3{
-    margin: 10px 0;
+    margin: 20px 0;
     color: #fff;
 }
 section p{
@@ -58,9 +58,19 @@ section p{
 button {
     margin-top: 60px;
     margin-bottom: 10px;
+    /* outline: none; */
+    border: none;
+    /* color: white;
+    padding: 10px 15px;
+    border-radius: 22px; */
 }
 section div:first-child {
   background-color: hsl(31, 77%, 52%);
+}
+section div:first-child button {
+   color: hsl(31, 77%, 52%);
+    padding: 10px 15px;
+    border-radius: 22px;
 }
 section div:nth-child(2) {
   background-color: hsl(184, 100%, 22%);
