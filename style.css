@@ -1,3 +1,5 @@
+
+
 * {
   padding: 0;
   margin: 0;
@@ -39,9 +41,23 @@ main div:nth-child(5) {
 section {
   display: flex;
   justify-content: space-between;
+ 
 }
 section > div {
     padding: 25px;
+}
+section > div h3{
+    margin: 10px 0;
+    color: #fff;
+}
+section p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+}
+button {
+    margin-top: 60px;
+    margin-bottom: 10px;
 }
 section div:first-child {
   background-color: hsl(31, 77%, 52%);
